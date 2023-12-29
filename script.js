@@ -19,6 +19,7 @@ const initApp = () => {
 
     /* assign values */
     colorText.textContent = app;
+    colorText.style.color = app;
     section.style.backgroundColor = app;
 
     /* submit button function */
